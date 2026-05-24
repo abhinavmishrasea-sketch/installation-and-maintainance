@@ -5,7 +5,7 @@ const toast = document.getElementById("toast");
 
 const USERS = {
   akash: { password: "akash", role: "akash" },
-  admin: { password: "admin", role: "admin" },
+  admin: { password: "Password", role: "admin" },
 };
 
 function validateLogin(username, password) {
